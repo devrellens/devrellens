@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+
+
+
+.started-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-duration: 2s;
+    animation-name: fadeInUp;
+  }
+
+
+  .started-text-large {
+    
+    font-family: 'Press Start 2P', cursive;
+
+  font-size: 2rem;
+  font-weight: 700;
+  color: #EF3CFF;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+  .green-text {
+    color: #66A836;
+  }
+
+  .box-section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .box{
+    width: 35rem;
+    height:15rem;
+    background: rgba(239, 59, 255, 0.4);
+    border-radius: 5px;
+  }
+
+    .box-text{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+        font-weight: 200;
+        color: #297600;
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }

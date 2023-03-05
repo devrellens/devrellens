@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-duration: 2s;
+    animation-name: fadeInUp;
+  }
+
+.hero-text-large {
+    font-family: 'Press Start 2P', cursive;
+
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #EF3CFF;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.green-text {
+  color: #66A836;
+}
+
+.hero-text-small{
+    font-family: 'Press Start 2P', cursive;
+
+  font-size: 1rem;
+  font-weight: 200;
+  color: #EF3CFF;
+  text-align: center;
+  margin-top: 0.5rem;
+
+
+}
+
+
+.hero-icon {
+    animation: rotating 3.0s linear infinite;
+
+  }
+
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  /*
+  <div className='hero-text-large'>
+        🌿 Take a<span className='green-text'>QUEST</span> show your <span className='green-text'>BEST</span> 🌿
+      </div>
+  */

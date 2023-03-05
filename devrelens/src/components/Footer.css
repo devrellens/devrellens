@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'animate.css';
+
+
+.footer-section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    align-items: center ;
+
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #006b1b;
+  text-align: bottom;
+}
