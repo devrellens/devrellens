@@ -1,38 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product in brief
 
-## Getting Started
+### The problem
 
-First, run the development server:
+- It takes a loooooong time to go thru due dillegence process.
+- It is hard to recognize or judge techie candidates for devrels without technical backgrounds.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Solutions → Our product
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Why social graphs? → Because it is hard to determine whether the grantee is 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### How it works
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Key features: Quest + Lens + Whitelist
+- desired user behavior in detail
+    - Quest: grantee candidates fill out the quests and the score will be counted as one metric that judges sincerity or knowledge on that track
+    - Lens: the number of lens friens will be also counted as that grantee’s social credibility
+    - Whitelist: Once a candidate get a chance to come across/have a meeting with devrel, he/she can be added to that devrel’s whitelist
+- Data in need; according to desired user behaviors
+    - Quest: quest scores
+    - Lens: the number of lens frens
+    - Whitelist:
