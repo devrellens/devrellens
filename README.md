@@ -1,22 +1,24 @@
-# Product in brief
+# 1pager - product
+
+# Devre.lens
+
+### Deployed on
+
+[https://devrel-tooling.vercel.app/](https://devrel-tooling.vercel.app/)
+
+### Demo
+
+[https://www.loom.com/share/71e08314d7d64797a3381b37a476791c](https://www.loom.com/share/71e08314d7d64797a3381b37a476791c)
 
 ### The problem
 
 - It takes a loooooong time to go thru due dillegence process.
 - It is hard to recognize or judge techie candidates for devrels without technical backgrounds.
+- It takes a endless time and energy to keep track on the grantees and monitor financial status.
 
-### Solutions → Our product
-
-Why social graphs? → Because it is hard to determine whether the grantee is 
-
-### How it works
+### Solutions
 
 - Key features: Quest + Lens + Whitelist
-- desired user behavior in detail
     - Quest: grantee candidates fill out the quests and the score will be counted as one metric that judges sincerity or knowledge on that track
     - Lens: the number of lens friens will be also counted as that grantee’s social credibility
     - Whitelist: Once a candidate get a chance to come across/have a meeting with devrel, he/she can be added to that devrel’s whitelist
-- Data in need; according to desired user behaviors
-    - Quest: quest scores
-    - Lens: the number of lens frens
-    - Whitelist:
